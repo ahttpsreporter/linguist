@@ -33,14 +33,14 @@ These components have their own dependencies.
 1. charlock_holmes
     * cmake
     * pkg-config
-    * [ICU](http://site.icu-project.org/)
+    * [ICU](https://icu.unicode.org)
     * [zlib](https://zlib.net/)
 2. rugged
     * [libcurl](https://curl.haxx.se/libcurl/)
     * [OpenSSL](https://www.openssl.org)
 
 You may need to install missing dependencies before you can install Linguist.
-For example, on macOS with [Homebrew](http://brew.sh/):
+For example, on macOS with [Homebrew](https://brew.sh/):
 
 ```bash
 brew install cmake pkg-config icu4c
